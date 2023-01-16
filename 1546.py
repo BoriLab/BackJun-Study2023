@@ -1,0 +1,5 @@
+n = int(input())
+point = list(map(int,input().split()))
+max_point = max(point)
+total_point = sum(point)
+print(total_point / max_point * 100 / n)
