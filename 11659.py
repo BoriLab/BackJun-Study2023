@@ -1,8 +1,8 @@
 #한 두줄 입력받는 문제들과 다르게, 반복문으로 여러줄을 입력 받아야 할 때는 input()으로
 #입력 받는다면 시간초과가 발생할 수 있습니다.
 import sys
-input = sys.stdin.readline()#코테 시 중요!!
-N, M = map(int,input().split())
+input = sys.stdin.readline#코테 시 중요!!
+N, M = map(int,input.split())
 number = list(map(int,input().split()))
 res_list = [0] #합배열 list
 temp = 0
